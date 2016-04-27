@@ -1,0 +1,1057 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#"
+     xml:base="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11">
+        <owl:imports rdf:resource="file:/imports/bfo_import.owl"/>
+        <owl:imports rdf:resource="file:/imports/chebi_import.owl"/>
+        <owl:imports rdf:resource="file:/imports/envo_import.owl"/>
+        <owl:imports rdf:resource="file:/imports/ro_import.owl"/>
+        <owl:imports rdf:resource="file:/imports/uberon_import.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- Eating_concomitant_with_other_behavior -->
+
+    <owl:Class rdf:about="Eating_concomitant_with_other_behavior">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_Behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#After_school_snacking_behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#After_school_snacking_behavior">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Snacking_Behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Agricultrual_feast_meals -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Agricultrual_feast_meals">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Feasting_meal_behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Anniversary_celebratory_meal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Anniversary_celebratory_meal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Celebratory_meal_behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Behavior_Process -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Behavior_Process">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Birthday_celebratory_meal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Birthday_celebratory_meal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Celebratory_meal_behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Celebratory_meal_behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Celebratory_meal_behavior">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Meal_Eating_Behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Compensate_for_other_foods_consumed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Compensate_for_other_foods_consumed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Compensatory_meal_behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Compensate_for_stress -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Compensate_for_stress">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Compensatory_meal_behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Compensatory_meal_behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Compensatory_meal_behavior">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Meal_Eating_Behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Consumption_Behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Consumption_Behavior">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Behavior_Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Drinking_Behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Drinking_Behavior">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Feeding_Behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_Behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_Behavior">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Feeding_Behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_accessibility -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_accessibility">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_external_stimuli"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_acute_illness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_acute_illness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_disease_state"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_addiction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_addiction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_internal_stimuli"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_anger -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_anger">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_emotions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_anxiety -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_anxiety">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_emotions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_appetite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_appetite">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_internal_stimuli"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_body_type_ectomorph -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_body_type_ectomorph">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_body_size/type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_body_type_endomorph -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_body_type_endomorph">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_body_size/type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_body_type_mesomorph -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_body_type_mesomorph">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_body_size/type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_boredom -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_boredom">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_emotions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_chronic_illness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_chronic_illness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_disease_state"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_contempt -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_contempt">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_emotions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_craving -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_craving">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_emotions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_culture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_culture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_socio-cultural_stimuli"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_depression -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_depression">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_emotions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_disease_state -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_disease_state">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_appetite"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_economics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_economics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_accessibility"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_embarrassment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_embarrassment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_emotions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_emotions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_emotions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_internal_stimuli"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_euphoria -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_euphoria">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_emotions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_external_stimuli -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_external_stimuli">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_Behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_familial_pressure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_familial_pressure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_external_stimuli"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_fast_metabolic_rate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_fast_metabolic_rate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_metabolic_rates"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_fear -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_fear">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_emotions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_food_environment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_food_environment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_external_stimuli"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_frustration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_frustration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_emotions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_gender -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_gender">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_appetite"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_geography -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_geography">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_external_stimuli"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_gratitude -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_gratitude">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_emotions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_guilt -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_guilt">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_emotions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_happiness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_happiness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_emotions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_hereditary_illness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_hereditary_illness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_disease_state"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_home_environment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_home_environment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_food_environment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_individual_genetics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_individual_genetics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_appetite"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_internal_stimuli -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_internal_stimuli">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_Behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_jealousy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_jealousy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_emotions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_loneliness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_loneliness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_emotions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_media -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_media">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_external_stimuli"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_metabolic_rates -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_metabolic_rates">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_appetite"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_moderate_metabolic_rate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_moderate_metabolic_rate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_metabolic_rates"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_peer_pressure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_peer_pressure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_socio-cultural_stimuli"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_regret -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_regret">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_emotions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_regulation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_regulation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_external_stimuli"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_sadness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_sadness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_emotions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_school_environment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_school_environment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_food_environment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_slow_metabolic_rate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_slow_metabolic_rate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_metabolic_rates"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_social_environment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_social_environment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_food_environment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_socio-cultural_stimuli -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_socio-cultural_stimuli">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_external_stimuli"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_stress -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_stress">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_emotions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_transportation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_transportation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_accessibility"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_work_environment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_work_environment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_food_environment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_while_bathing_behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_while_bathing_behavior">
+        <rdfs:subClassOf rdf:resource="Eating_concomitant_with_other_behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_while_biking_behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_while_biking_behavior">
+        <rdfs:subClassOf rdf:resource="Eating_concomitant_with_other_behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_while_crying_behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_while_crying_behavior">
+        <rdfs:subClassOf rdf:resource="Eating_concomitant_with_other_behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_while_defecating_behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_while_defecating_behavior">
+        <rdfs:subClassOf rdf:resource="Eating_concomitant_with_other_behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_while_driving_behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_while_driving_behavior">
+        <rdfs:subClassOf rdf:resource="Eating_concomitant_with_other_behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_while_exercising_behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_while_exercising_behavior">
+        <rdfs:subClassOf rdf:resource="Eating_concomitant_with_other_behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_while_laughing_behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_while_laughing_behavior">
+        <rdfs:subClassOf rdf:resource="Eating_concomitant_with_other_behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_while_laying_behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_while_laying_behavior">
+        <rdfs:subClassOf rdf:resource="Eating_concomitant_with_other_behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_while_lounging_behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_while_lounging_behavior">
+        <rdfs:subClassOf rdf:resource="Eating_concomitant_with_other_behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_while_reading_behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_while_reading_behavior">
+        <rdfs:subClassOf rdf:resource="Eating_concomitant_with_other_behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_while_running_behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_while_running_behavior">
+        <rdfs:subClassOf rdf:resource="Eating_concomitant_with_other_behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_while_seated_behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_while_seated_behavior">
+        <rdfs:subClassOf rdf:resource="Eating_concomitant_with_other_behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_while_studying_behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_while_studying_behavior">
+        <rdfs:subClassOf rdf:resource="Eating_concomitant_with_other_behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_while_swimming_behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_while_swimming_behavior">
+        <rdfs:subClassOf rdf:resource="Eating_concomitant_with_other_behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_while_talking_behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_while_talking_behavior">
+        <rdfs:subClassOf rdf:resource="Eating_concomitant_with_other_behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_while_walking_behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_while_walking_behavior">
+        <rdfs:subClassOf rdf:resource="Eating_concomitant_with_other_behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_while_working_behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_while_working_behavior">
+        <rdfs:subClassOf rdf:resource="Eating_concomitant_with_other_behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_while_yelling_behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_while_yelling_behavior">
+        <rdfs:subClassOf rdf:resource="Eating_concomitant_with_other_behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Edenic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Edenic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Religiously_regulated_eating_behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Ethically_regulated_eating_behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Ethically_regulated_eating_behavior">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Regulated_Eating_Behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Familial_Meal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Familial_Meal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Soical_meal_behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Feasting_meal_behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Feasting_meal_behavior">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Meal_Eating_Behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Feeding_Behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Feeding_Behavior">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Consumption_Behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Friend_social_gathering_meal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Friend_social_gathering_meal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Soical_meal_behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Graduation_celebratory_meal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Graduation_celebratory_meal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Celebratory_meal_behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Halal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Halal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Religiously_regulated_eating_behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Health-oriented_eating_behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Health-oriented_eating_behavior">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Regulated_Eating_Behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Health_promoting_meal_behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Health_promoting_meal_behavior">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Meal_Eating_Behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Holiday_meal_behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Holiday_meal_behavior">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Meal_Eating_Behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Hunger_oriented_eating_behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Hunger_oriented_eating_behavior">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Health-oriented_eating_behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Image_oriented_eating_behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Image_oriented_eating_behavior">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Regulated_Eating_Behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Jane -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Jane">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Religiously_regulated_eating_behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Kosher -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Kosher">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Religiously_regulated_eating_behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Lacto-Vegetarian -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Lacto-Vegetarian">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Religiously_regulated_eating_behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Late_night_snacking_behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Late_night_snacking_behavior">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Snacking_Behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Meal_Eating_Behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Meal_Eating_Behavior">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_Behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Mid-day_snacking_behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Mid-day_snacking_behavior">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Snacking_Behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Morning_snacking_behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Morning_snacking_behavior">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Snacking_Behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Non-self_regulated_eating_behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Non-self_regulated_eating_behavior">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_external_stimuli"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Performance_regulated_eating_behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Performance_regulated_eating_behavior">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Regulated_Eating_Behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Personal_Occasion_celebratory_meal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Personal_Occasion_celebratory_meal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Celebratory_meal_behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Pescaterian_eating_behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Pescaterian_eating_behavior">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Ethically_regulated_eating_behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Physiologically_self-regulated_eating_behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Physiologically_self-regulated_eating_behavior">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Self-regulated_eating_behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Post-workout__meal_behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Post-workout__meal_behavior">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Meal_Eating_Behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Promotion_celebratory_meal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Promotion_celebratory_meal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Celebratory_meal_behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Psychological_eating_behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Psychological_eating_behavior">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Self-regulated_eating_behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Regulated_Eating_Behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Regulated_Eating_Behavior">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_Behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Religiously_regulated_eating_behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Religiously_regulated_eating_behavior">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Regulated_Eating_Behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Religous_holiday_meals -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Religous_holiday_meals">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Holiday_meal_behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Religous_meal_behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Religous_meal_behavior">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Meal_Eating_Behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Secular_holiday_meals -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Secular_holiday_meals">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Holiday_meal_behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Self-regulated_eating_behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Self-regulated_eating_behavior">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Regulated_Eating_Behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Snacking_Behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Snacking_Behavior">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_Behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Socio-cultural_feast_meals -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Socio-cultural_feast_meals">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Feasting_meal_behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Soical_meal_behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Soical_meal_behavior">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Meal_Eating_Behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Vegan_eating_behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Vegan_eating_behavior">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Ethically_regulated_eating_behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Vegetarian_eating_behavior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Vegetarian_eating_behavior">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Ethically_regulated_eating_behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Wedding_celebratory_meal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Wedding_celebratory_meal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Celebratory_meal_behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Compensate_for_+/-_Sleep -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Compensate_for_+/-_Sleep">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Compensatory_meal_behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Compensate_for_+/-_physical_activity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Compensate_for_+/-_physical_activity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Compensatory_meal_behavior"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_activity/exertion_levels -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_activity/exertion_levels">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_appetite"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_availability/supply -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_availability/supply">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_accessibility"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_body_size/type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_body_size/type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kimi/ontologies/2016/3/untitled-ontology-11#Eating_influenced_by_appetite"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+
