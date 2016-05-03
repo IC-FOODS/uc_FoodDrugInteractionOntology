@@ -1,2 +1,2 @@
 # uc_FoodDrugInteractionOntology
-An ontology to describe interactions between foods and drugs.
+An ontology to unambiguously characterize interactions between foods and drugs.
